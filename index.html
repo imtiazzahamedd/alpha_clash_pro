@@ -18,22 +18,62 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
-<body class="font-poppins min-h-screen bg-[#010313] bg-[url(images/background.png)] bg-no-repeat bg-center text-white">
-  <section class="home">
-    <div class="min-h-screen flex flex-col justify-center items-center gap-5">
-      <h1 class="font-anton text-9xl">ALPHABET CLASH</h1>
-      <p class="text-xl">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
-      <button id="btn" class="px-5 py-2 font-semibold">Play Now</button>
-
-    </div>
-
-  </section>
-  <section class="playground">
-
-  </section>
-  <section class="score">
-    
-  </section>
-    
-</body>
+<body>
+  <main class="font-poppins min-h-screen bg-[#010313] bg-[url(images/background.png)] bg-no-repeat bg-center text-white">
+    <!-- home section -->
+    <section class="home hidden">
+      <div class="min-h-screen flex flex-col justify-center items-center gap-5">
+        <h1 class="font-anton text-9xl">ALPHABET CLASH</h1>
+        <p class="text-xl">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+        <button id="btn" class="px-5 py-2 font-semibold">Play Now</button>
+      </div>
+  
+    </section>
+    <!-- playground section -->
+    <section class="playground">
+      <!-- screen section -->
+      <div class="artboard artboard-horizontal phone-6 border-8 rounded-2xl border-[#010313B3] bg-[#FFFFFFB3]">1024×320</div>
+      <!-- keyboard section -->
+       <div>
+        <div class="my-1 flex w-full justify-center gap-1">
+          <kbd class="kbd">q</kbd>
+          <kbd class="kbd">w</kbd>
+          <kbd class="kbd">e</kbd>
+          <kbd class="kbd">r</kbd>
+          <kbd class="kbd">t</kbd>
+          <kbd class="kbd">y</kbd>
+          <kbd class="kbd">u</kbd>
+          <kbd class="kbd">i</kbd>
+          <kbd class="kbd">o</kbd>
+          <kbd class="kbd">p</kbd>
+        </div>
+        <div class="my-1 flex w-full justify-center gap-1">
+          <kbd class="kbd">a</kbd>
+          <kbd class="kbd">s</kbd>
+          <kbd class="kbd">d</kbd>
+          <kbd class="kbd">f</kbd>
+          <kbd class="kbd">g</kbd>
+          <kbd class="kbd">h</kbd>
+          <kbd class="kbd">j</kbd>
+          <kbd class="kbd">k</kbd>
+          <kbd class="kbd">l</kbd>
+        </div>
+        <div class="my-1 flex w-full justify-center gap-1">
+          <kbd class="kbd">z</kbd>
+          <kbd class="kbd">x</kbd>
+          <kbd class="kbd">c</kbd>
+          <kbd class="kbd">v</kbd>
+          <kbd class="kbd">b</kbd>
+          <kbd class="kbd">n</kbd>
+          <kbd class="kbd">m</kbd>
+          <kbd class="kbd">/</kbd>
+        </div>
+       </div>
+  
+    </section>
+    <section class="score">
+      
+    </section>
+   </main> 
+</body>  
 </html>
